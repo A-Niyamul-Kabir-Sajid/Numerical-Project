@@ -53,7 +53,7 @@ int main()
                 }
                 if(coeffZero&&fabs(A[i][n])<1e-12)
                 {
-                    cout<<"Infinite solutions exist\n";
+                    cout << "Infinite solutions exist\n";
                 }
                 else if(coeffZero)
                 {
