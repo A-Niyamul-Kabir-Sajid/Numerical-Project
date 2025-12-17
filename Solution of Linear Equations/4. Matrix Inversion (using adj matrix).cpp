@@ -161,7 +161,7 @@ int main(){
     }
 
     int rankA =rankOfMatrix(A);
-    int rankAug = rankOfMatrix(Aug);
+    int rankAug =rankOfMatrix(Aug);
 
     if(rankA != rankAug)
         cout <<"No solution exists\n";
