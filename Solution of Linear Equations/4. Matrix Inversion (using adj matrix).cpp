@@ -126,13 +126,15 @@ int main(){
     vector<double> B(n);
 
     // Input A
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++)
             cin >> A[i][j];
+            cin>>B[i];
+    }
 
     // Input B
-    for(int i = 0; i < n; i++)
-        cin >> B[i];
+    // for(int i = 0; i < n; i++)
+    //     cin >> B[i];
 
     double det = determinant(A);
 
