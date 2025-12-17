@@ -122,7 +122,7 @@ int main() {
     cout << "\nL Matrix:\n";
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j++)
-            cout << setw(2) << L[i][j]<<" ";
+            cout << setw(2)<< L[i][j]<<" ";
         cout << endl;
     }
 
