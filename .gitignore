@@ -1,6 +1,13 @@
 # Ignore files and directories ending with .cph
 # Matches files like "example.cph" and directories named "folder.cph/"
+# Ignore files and directories named .cph
+
+# Ignore files and directories ending with .cph
+# Matches files like "example.cph" and directories named "folder.cph/"
 *.cph
-*.cph/
 **/*.cph
-**/*.cph/
+
+# Ignore Windows executables
+*.exe
+**/*.exe
+
