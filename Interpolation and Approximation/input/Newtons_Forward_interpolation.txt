@@ -1,0 +1,2 @@
+# Input for Newtons_Forward_interpolation.cpp
+# Add your test data here

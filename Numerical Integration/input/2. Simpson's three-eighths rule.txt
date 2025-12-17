@@ -1,0 +1,2 @@
+# Input for 2. Simpson's three-eighths rule.cpp
+# Add your test data here

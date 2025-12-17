@@ -1,0 +1,2 @@
+# Input for LeastSquare_Polynomial.cpp
+# Add your test data here

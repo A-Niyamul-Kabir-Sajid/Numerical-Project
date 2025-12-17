@@ -1,0 +1,2 @@
+# Input for Differentiation based on equal-interval interpolation.cpp
+# Add your test data here

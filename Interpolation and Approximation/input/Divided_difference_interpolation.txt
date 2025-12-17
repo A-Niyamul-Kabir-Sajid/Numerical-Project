@@ -1,0 +1,2 @@
+# Input for Divided_difference_interpolation.cpp
+# Add your test data here
