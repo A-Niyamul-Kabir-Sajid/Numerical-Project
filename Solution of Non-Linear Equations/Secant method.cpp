@@ -84,3 +84,25 @@ int main() {
 
     return 0;
 }
+
+
+/*
+No Root
+input:
+2
+1 0 1
+output:
+1x^2+1
+No real roots found.
+*/
+
+/*
+root
+input:
+2
+1 0 -4
+output:
+1x^2-4
+Roots found:
+-2.000000 -2.000000 2.000000 2.000000 
+*/
