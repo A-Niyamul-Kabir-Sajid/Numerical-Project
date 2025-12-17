@@ -166,7 +166,7 @@ int main(){
     if(rankA != rankAug)
         cout << "No solution exists\n";
     else
-        cout << "Many solutions exist\n";
+        cout <<"Many solutions exist\n";
 
     return 0;
 }
