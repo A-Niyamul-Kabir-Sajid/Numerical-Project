@@ -22,3 +22,7 @@ int main(){
     cout<<"The value of y at x is : "<<rungeKutta(x0,y,x,h);
     return 0;
 }
+
+/*
+input:
+*/
