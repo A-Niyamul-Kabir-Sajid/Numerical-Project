@@ -126,13 +126,15 @@ int main(){
     vector<double> B(n);
 
     // Input A
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++)
             cin >> A[i][j];
+            cin>>B[i];
+    }
 
     // Input B
-    for(int i = 0; i < n; i++)
-        cin >> B[i];
+    // for(int i = 0; i < n; i++)
+    //     cin >> B[i];
 
     double det = determinant(A);
 
@@ -158,13 +160,13 @@ int main(){
         Aug[i][n] = B[i];
     }
 
-    int rankA = rankOfMatrix(A);
-    int rankAug = rankOfMatrix(Aug);
+    int rankA =rankOfMatrix(A);
+    int rankAug =rankOfMatrix(Aug);
 
     if(rankA != rankAug)
-        cout << "No solution exists\n";
+        cout <<"No solution exists\n";
     else
-        cout << "Many solutions exist\n";
+        cout <<"Many solutions exist\n";
 
     return 0;
 }
