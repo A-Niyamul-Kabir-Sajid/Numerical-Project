@@ -160,7 +160,7 @@ int main(){
         Aug[i][n] = B[i];
     }
 
-    int rankA = rankOfMatrix(A);
+    int rankA =rankOfMatrix(A);
     int rankAug = rankOfMatrix(Aug);
 
     if(rankA != rankAug)
