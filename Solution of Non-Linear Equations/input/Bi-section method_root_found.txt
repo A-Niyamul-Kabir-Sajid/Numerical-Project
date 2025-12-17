@@ -1,8 +1,4 @@
-# Test case: Root exists in interval
-# Function: f(x) = x^2 - 4 (roots at x = ±2)
-# Interval: [0, 3]
-# Expected: Root found near x = 2
-# input:
+
 2
 1 -3 2
 

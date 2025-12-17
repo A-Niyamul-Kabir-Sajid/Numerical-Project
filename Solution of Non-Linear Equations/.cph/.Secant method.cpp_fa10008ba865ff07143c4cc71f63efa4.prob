@@ -1,0 +1,1 @@
+{"name":"Local: Secant method","url":"d:\\Codes\\KUET\\Numerical Project\\Solution of Non-Linear Equations\\Secant method.cpp","tests":[{"id":1765999661181,"input":"2\n1 0 -4\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Codes\\KUET\\Numerical Project\\Solution of Non-Linear Equations\\Secant method.cpp","group":"local","local":true}
