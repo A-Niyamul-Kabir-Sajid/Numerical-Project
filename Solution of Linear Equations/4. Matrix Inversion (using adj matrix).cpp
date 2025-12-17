@@ -164,7 +164,7 @@ int main(){
     int rankAug = rankOfMatrix(Aug);
 
     if(rankA != rankAug)
-        cout << "No solution exists\n";
+        cout <<"No solution exists\n";
     else
         cout <<"Many solutions exist\n";
 
