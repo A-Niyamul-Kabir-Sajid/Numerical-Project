@@ -1,0 +1,6 @@
+# Test case: Unique solution
+# System: 2x + 3y = 8, 4x + y = 10
+# Expected: x = 2, y = 1.333...
+2
+2 3 8
+4 1 10

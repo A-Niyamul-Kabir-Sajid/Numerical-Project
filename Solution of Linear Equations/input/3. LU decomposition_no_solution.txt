@@ -1,0 +1,6 @@
+# Test case: No solution (inconsistent)
+# System: x + 2y = 3, 2x + 4y = 10
+# Expected: No solution
+2
+1 2 3
+2 4 10

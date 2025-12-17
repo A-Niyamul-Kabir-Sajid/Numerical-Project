@@ -1,0 +1,2 @@
+# Input for Newton-Raphson method.cpp
+# Add your test data here

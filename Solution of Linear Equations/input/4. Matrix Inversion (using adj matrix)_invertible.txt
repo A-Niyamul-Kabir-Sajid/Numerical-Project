@@ -1,0 +1,7 @@
+# Test case: Invertible matrix (unique solution)
+# Matrix: [[2, 1], [1, 3]]
+# RHS: [8, 10]
+# Expected: x = 2, y = 2.666...
+2
+2 1 8
+1 3 10

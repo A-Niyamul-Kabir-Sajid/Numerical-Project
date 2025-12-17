@@ -1,0 +1,7 @@
+# Test case: Singular matrix (no unique solution)
+# Matrix: [[1, 2], [2, 4]] (determinant = 0)
+# RHS: [3, 6]
+# Expected: Many solutions or no solution
+2
+1 2 3
+2 4 6
