@@ -4,8 +4,6 @@
 
 # Ignore files and directories ending with .cph
 # Matches files like "example.cph" and directories named "folder.cph/"
-*.cph
-**/*.cph
 
 # Ignore Windows executables
 *.exe

@@ -1,87 +1,143 @@
-// Bisection Method for Finding Polynomial Roots
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <algorithm>
+#include <iomanip>
 
-#include <bits/stdc++.h>
 using namespace std;
 
-const double EPS = 1e-8;     // Convergence tolerance
-const int MAX_ITER = 100;     // Maximum iterations per root
-const double STEP = 0.5;      // Interval step for scanning possible roots
-void printfunc(const vector<int>& cof) {
-    int n = cof.size();
-    for(int i = 0; i < n; i++) {
-        if(cof[i] > 0 && i != 0) cout << '+';
-        if(cof[i] != 0) {
-            cout << cof[i];
-            if(n-i-1 > 1) cout << "x^" << n-i-1;
-            else if(n-i-1 == 1) cout << "x";
-        }
+// Constants for numerical stability
+const double EPS = 1e-9;      // Precision for root finding
+const double STEP = 0.5;     // Step size to scan for sign changes
+const double RANGE = 100.0;  // Range to scan (-100 to 100)
+const int MAX_ITER = 100;    // Safety cap for bisection iterations
+
+// Evaluate polynomial using Horner's Method: O(n)
+double evaluate(const vector<double>& poly, double x) {
+    double res = 0;
+    for (double coeff : poly)
+        res = res * x + coeff;
+    return res;
+}
+
+// Function to print the polynomial nicely
+void printPolynomial(const vector<double>& poly) {
+    int n = poly.size() - 1;
+    cout << "f(x) = ";
+    for (int i = 0; i <= n; i++) {
+        if (poly[i] == 0) continue;
+        if (poly[i] > 0 && i != 0) cout << " + ";
+        if (poly[i] < 0) cout << " - ";
+        
+        double val = abs(poly[i]);
+        if (val != 1 || i == n) cout << val;
+        
+        int power = n - i;
+        if (power > 1) cout << "x^" << power;
+        else if (power == 1) cout << "x";
     }
     cout << endl;
 }
 
-// Evaluate polynomial at x using Horner's method
-double func(const vector<int>& cof, double x) {
-    double res = 0;
-    for(int i = 0; i < cof.size(); i++)
-        res = res*x + cof[i];
-    return res;
-}
-
 int main() {
-    int n;
-    cin >> n;
+    int degree;
+    cout << "Enter the degree of the polynomial: ";
+    if (!(cin >> degree)) return 1;
 
-    vector<int> cof(n+1);
-    for(int i = 0; i <= n; i++)
-        cin >> cof[i];
+    vector<double> coeffs(degree + 1);
+    cout << "Enter coefficients (from highest power to constant):" << endl;
+    for (int i = 0; i <= degree; i++) {
+        cin >> coeffs[i];
+    }
 
-    printfunc(cof);
+    printPolynomial(coeffs);
 
     vector<double> roots;
-    double start = -1000, end = 1000;
 
-    // Scan intervals for sign changes
-    for(double a = start; a < end; a += STEP) {
+    // 1. Scanning Phase: Look for intervals [a, b] where f(a) and f(b) have different signs
+    for (double a = -RANGE; a < RANGE; a += STEP) {
         double b = a + STEP;
-        double fa = func(cof, a);
-        double fb = func(cof, b);
+        double fa = evaluate(coeffs, a);
+        double fb = evaluate(coeffs, b);
 
-        if(fa*fb > 0) continue; // no root in this interval
+        // Check if 'a' itself is a root to avoid missing it
+        if (abs(fa) < EPS) {
+            roots.push_back(a);
+            continue;
+        }
 
-        double left = a, right = b;
-        int iter = 0;
-        set<long long> seen; // Avoid duplicate roots
+        // Bisection condition: signs must be opposite
+        // Using (fa > 0) != (fb > 0) is safer than fa * fb < 0 to prevent underflow
+        if ((fa > 0) != (fb > 0)) {
+            double low = a;
+            double high = b;
 
-        // Bisection iterations
-        while(iter < MAX_ITER && fabs(right - left) > EPS) {
-            double mid = (left + right)/2.0;
-            double fmid = func(cof, mid);
+            for (int i = 0; i < MAX_ITER; i++) {
+                double mid = low + (high - low) / 2.0;
+                double fmid = evaluate(coeffs, mid);
 
-            if(fabs(fmid) < EPS || seen.count(round(mid*1e6))) {
-                roots.push_back(mid);
-                break;
+                if (abs(fmid) < EPS || (high - low) / 2.0 < EPS) {
+                    roots.push_back(mid);
+                    break;
+                }
+
+                // Check which sub-interval contains the sign change
+                if ((evaluate(coeffs, low) > 0) != (fmid > 0)) {
+                    high = mid;
+                } else {
+                    low = mid;
+                }
             }
-
-            if(fa * fmid < 0) right = mid;
-            else {
-                left = mid;
-                fa = fmid; // update fa for next iteration
-            }
-
-            seen.insert(round(mid*1e6));
-            iter++;
         }
     }
 
-    if(roots.empty()) {
-        cout << "No real roots found.\n";
+    // 2. Cleaning Phase: Sort and remove duplicates caused by overlapping intervals
+    if (roots.empty()) {
+        cout << "No real roots found in the range [-" << RANGE << ", " << RANGE << "]." << endl;
     } else {
         sort(roots.begin(), roots.end());
-        cout << "Roots found:\n";
-        for(double r : roots)
-            cout << fixed << setprecision(6) << r << " ";
-        cout << endl;
+        
+        // Remove duplicates where roots are closer than a threshold
+        auto it = unique(roots.begin(), roots.end(), [](double x, double y) {
+            return abs(x - y) < 1e-5; 
+        });
+        roots.erase(it, roots.end());
+
+        cout << "Real roots found:" << endl;
+        for (double r : roots) {
+            // Clean up near-zero results like -0.000000
+            if (abs(r) < 1e-10) r = 0.0;
+            cout << "x = " << fixed << setprecision(6) << r << endl;
+        }
     }
 
     return 0;
 }
+
+
+/*
+no root
+input 
+2
+1 0 1   
+output
+
+f(x) = x^2 + 1
+No real roots found in the range [-100, 100].
+
+*/
+
+/*
+root found
+input
+2
+1 -3 2
+output
+f(x) = x^2 - 3x + 2
+Real roots found:
+x = 1.000000
+x = 2.000000
+*/
+
+
+

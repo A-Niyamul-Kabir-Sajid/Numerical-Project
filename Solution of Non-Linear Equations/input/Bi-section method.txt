@@ -1,2 +1,0 @@
-# Input for Bi-section method.cpp
-# Add your test data here

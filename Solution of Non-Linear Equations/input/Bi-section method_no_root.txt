@@ -2,4 +2,8 @@
 # Function: f(x) = x^2 - 4
 # Interval: [3, 5] (both positive, no sign change)
 # Expected: No root in this interval
-3 5
+
+# input:
+2
+1 0 1
+
