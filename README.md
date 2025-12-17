@@ -63,12 +63,34 @@ The algorithm can handle three cases:
 // Add your code here
 ```
 
-#### Input Format
+#### Test Cases
+
+##### Case 1: Unique Solution
+**Input:**
 ```
-// Add input format here
+// Add input here
+```
+**Output:**
+```
+// Add output here
 ```
 
-#### Output
+##### Case 2: Infinite Solutions
+**Input:**
+```
+// Add input here
+```
+**Output:**
+```
+// Add output here
+```
+
+##### Case 3: No Solution
+**Input:**
+```
+// Add input here
+```
+**Output:**
 ```
 // Add output here
 ```
@@ -91,12 +113,34 @@ Key differences from Gauss elimination:
 // Add your code here
 ```
 
-#### Input Format
+#### Test Cases
+
+##### Case 1: Unique Solution
+**Input:**
 ```
-// Add input format here
+// Add input here
+```
+**Output:**
+```
+// Add output here
 ```
 
-#### Output
+##### Case 2: Infinite Solutions
+**Input:**
+```
+// Add input here
+```
+**Output:**
+```
+// Add output here
+```
+
+##### Case 3: No Solution
+**Input:**
+```
+// Add input here
+```
+**Output:**
 ```
 // Add output here
 ```
@@ -122,12 +166,34 @@ The algorithm proceeds as:
 // Add your code here
 ```
 
-#### Input Format
+#### Test Cases
+
+##### Case 1: Unique Solution
+**Input:**
 ```
-// Add input format here
+// Add input here
+```
+**Output:**
+```
+// Add output here
 ```
 
-#### Output
+##### Case 2: Infinite Solutions
+**Input:**
+```
+// Add input here
+```
+**Output:**
+```
+// Add output here
+```
+
+##### Case 3: No Solution
+**Input:**
+```
+// Add input here
+```
+**Output:**
 ```
 // Add output here
 ```
@@ -156,12 +222,24 @@ Cases:
 // Add your code here
 ```
 
-#### Input Format
+#### Test Cases
+
+##### Case 1: Invertible Matrix (Unique Solution)
+**Input:**
 ```
-// Add input format here
+// Add input here
+```
+**Output:**
+```
+// Add output here
 ```
 
-#### Output
+##### Case 2: Singular Matrix (No Unique Solution)
+**Input:**
+```
+// Add input here
+```
+**Output:**
 ```
 // Add output here
 ```
@@ -197,12 +275,24 @@ The Bisection method is a bracketing method that repeatedly divides an interval 
 // Add your code here
 ```
 
-#### Input Format
+#### Test Cases
+
+##### Case 1: Root Found
+**Input:**
 ```
-// Add input format here
+// Add input here
+```
+**Output:**
+```
+// Add output here
 ```
 
-#### Output
+##### Case 2: No Root in Interval
+**Input:**
+```
+// Add input here
+```
+**Output:**
 ```
 // Add output here
 ```
@@ -230,12 +320,24 @@ The False Position method (also called Regula Falsi) is another bracketing metho
 // Add your code here
 ```
 
-#### Input Format
+#### Test Cases
+
+##### Case 1: Root Found
+**Input:**
 ```
-// Add input format here
+// Add input here
+```
+**Output:**
+```
+// Add output here
 ```
 
-#### Output
+##### Case 2: No Root in Interval
+**Input:**
+```
+// Add input here
+```
+**Output:**
 ```
 // Add output here
 ```
@@ -329,7 +431,7 @@ Interpolation methods estimate function values between known data points using p
 Newton's Forward Interpolation is used when we need to interpolate values **near the beginning** of a table of equally-spaced data points.
 
 **Key Concepts**:
-- Uses **forward differences** (∇f)
+- Uses **forward differences** (∆f)
 - Applicable when data points are equally spaced
 - Builds a polynomial using the data and its differences
 - Formula: f(x) = f(x₀) + p∆f(x₀) + p(p-1)/2! ∆²f(x₀) + ...
