@@ -2,6 +2,7 @@
 #include<vector>
 #include<cmath>
 #include<iomanip>
+#include<limits>
 
 using namespace std;
 
@@ -27,6 +28,7 @@ pair<double,double> transcendental(const vector<double>& x,const vector<double>&
     double b= (n*Sxy-Sx*Sy)/denom;
     double A=(Sy-b*Sx)/n;
     double a=exp(A);
+    cout << "Predicted value at x = " << predictX << " is y = ";
     cout << fixed << setprecision(6) << (a*pow(predictX,b)) << "\n";
 
     return {a,b};
@@ -51,3 +53,15 @@ int main(){
     transcendental(x,y,predictX);
    
 }
+/*
+Input:
+4
+1 2.7
+2 3.7
+3 5.0
+4 7.4
+5
+
+Output:
+Predicted value at x = 5 is y = 9.110219
+*/

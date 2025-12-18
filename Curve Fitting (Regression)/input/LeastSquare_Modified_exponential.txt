@@ -1,2 +1,13 @@
 # Input for LeastSquare_Modified_exponential.cpp
-# Add your test data here
+# Test case:
+5
+0 2
+1 2.7
+2 3.7
+3 5.0
+4 7.4
+5
+
+# Expected: 
+Regression equation: T = -1.294980 + 3.110722 * e^(t/4)
+Predicted value at t = 5.000000 is T = 9.562507

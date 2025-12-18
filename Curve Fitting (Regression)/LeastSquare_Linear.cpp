@@ -40,20 +40,20 @@ int main() {
     cin.tie(nullptr);
 
     int n;
-    cout << "Enter number of data points: ";
+    //cout << "Enter number of data points: ";
     if (!(cin >> n) || n < 2) {
         cout << "Invalid input. At least 2 data points are required.\n";
         return 0;
     }
 
     vector<double> x(n), y(n);
-    cout << "Enter the data points (x y) one per line:\n";
+    //cout << "Enter the data points (x y) one per line:\n";
     for (int i = 0; i < n; i++) {
         cin >> x[i] >> y[i];
     }
 
     double predictX;
-    cout << "Enter the value of x to predict y: ";
+    //cout << "Enter the value of x to predict y: ";
     if (!(cin >> predictX)) {
         cout << "Invalid input for prediction.\n";
         return 0;
@@ -63,3 +63,16 @@ int main() {
 
     return 0;
 }
+/*
+Input:
+5
+0 2
+1 2.7
+2 3.7
+3 5.0
+4 7.4
+5
+Output:
+Regression Line: y = 1.540000 + 1.310000*x
+Predicted value at x = 5.000000 is y = 8.090000
+*/
