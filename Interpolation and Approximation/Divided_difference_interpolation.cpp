@@ -33,14 +33,14 @@ double dividedDifference(const vector<double>& x, const vector<double>& y, doubl
 
 int main() {
     int n;
-    cout << "Enter number of data points: ";
+    //cout << "Enter number of data points: ";
     cin >> n;
     vector<double> x(n), y(n);
-    cout << "Enter data points (x y):\n";
+    //cout << "Enter data points (x y):\n";
     for(int i=0; i<n; i++) cin >> x[i] >> y[i];
 
     double valX;
-    cout << "Enter value to interpolate: ";
+    //cout << "Enter value to interpolate: ";
     cin >> valX;
 
     double error;
@@ -50,3 +50,15 @@ int main() {
 
     return 0;
 }
+/*
+input:
+3
+1 1
+2 4
+4 16
+3
+output:
+Interpolated value at x = 3 is y = 9
+Estimated interpolation error: 2
+
+*/
