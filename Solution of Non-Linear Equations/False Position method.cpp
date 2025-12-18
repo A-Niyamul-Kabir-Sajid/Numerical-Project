@@ -88,7 +88,7 @@ int main() {
         });
         found_roots.erase(it, found_roots.end());
 
-        cout << "\nUnique real roots found:" << endl;int i=1;
+        cout << "\nUnique real roots found:" << endl;int i = 1;
         for (double r : found_roots) {
             
             // Clean up visual noise like -0.000000
