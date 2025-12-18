@@ -1,6 +1,6 @@
 # Test case: Infinite solutions
 # System: x + 2y = 3, 2x + 4y = 6 (dependent system)
-# Expected: Infinite solutions
+# Expected: Infinite solutions exist
 2
 1 2 3
 2 4 6
