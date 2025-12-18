@@ -1,0 +1,6 @@
+# Test case:  roots found
+# System:range [-100,100] and f(x)=x^2-3x+2
+# Expected: -2.000000 -2.000000 2.000000 2.000000 
+2
+1 0 -4
+

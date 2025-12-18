@@ -98,9 +98,11 @@ int main() {
 
         cout << "Roots found:\n";
         for(double r : roots) {
+            int i=1;
             // Fix sign of zero if result is -0.000000
             if(fabs(r) < 1e-10) r = 0.0;
-            cout << fixed << setprecision(6) << r << " ";
+            cout <<"x"<<i<<" = "<< fixed << setprecision(6) << r <<endl;
+            i++;
         }
         cout << endl;
     }

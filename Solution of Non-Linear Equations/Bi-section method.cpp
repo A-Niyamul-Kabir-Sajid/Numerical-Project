@@ -41,11 +41,11 @@ void printPolynomial(const vector<double>& poly) {
 
 int main() {
     int degree;
-    cout << "Enter the degree of the polynomial: ";
+    //cout << "Enter the degree of the polynomial: ";
     if (!(cin >> degree)) return 1;
 
     vector<double> coeffs(degree + 1);
-    cout << "Enter coefficients (from highest power to constant):" << endl;
+    //cout << "Enter coefficients (from highest power to constant):" << endl;
     for (int i = 0; i <= degree; i++) {
         cin >> coeffs[i];
     }
@@ -105,9 +105,11 @@ int main() {
 
         cout << "Real roots found:" << endl;
         for (double r : roots) {
+            int i=1;
             // Clean up near-zero results like -0.000000
             if (abs(r) < 1e-10) r = 0.0;
-            cout << "x = " << fixed << setprecision(6) << r << endl;
+            cout << "x"<<i<<" = " << fixed << setprecision(6) << r << endl;
+            i++;
         }
     }
 
@@ -135,8 +137,8 @@ input
 output
 f(x) = x^2 - 3x + 2
 Real roots found:
-x = 1.000000
-x = 2.000000
+x1 = 1.000000
+x2 = 2.000000
 */
 
 

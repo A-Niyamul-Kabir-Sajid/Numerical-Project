@@ -35,7 +35,7 @@ int matrixRank(vector<vector<double>> mat, int n, int m)
 int main()
 {
     int n;
-    cout << "Enter number of variables: ";
+    //cout << "Enter number of variables: ";
     cin >> n;
 
     vector<vector<double>> A(n, vector<double>(n));
@@ -43,7 +43,7 @@ int main()
     vector<vector<double>> L(n, vector<double>(n, 0));
     vector<vector<double>> U(n, vector<double>(n, 0));
 
-    cout << "Enter augmented matrix row wise:\n";
+    //cout << "Enter augmented matrix row wise:\n";
     for(int i = 0; i < n; i++)
     {
         for(int j = 0; j < n; j++)
@@ -144,3 +144,70 @@ int main()
 
     return 0;
 }
+/*
+infinite solution
+input 
+2
+1 2 3
+2 4 6
+output
+
+Rank(A) = 1, Rank(A|B) = 1
+Infinite solutions exist.
+
+L Matrix:
+ 1  0 
+ 2  1 
+
+U Matrix:
+ 1  2 
+ 0  0 
+
+*/
+
+/*
+root found
+input
+2
+2 3 8
+4 1 10
+output
+
+
+Unique solution exists.
+Solution Vector X:
+x1 = 2.200000
+x2 = 1.200000
+
+L Matrix:
+1.000000 0.000000 
+2.000000 1.000000 
+
+U Matrix:
+2.000000 3.000000 
+0.000000 -5.000000 
+
+
+
+*/
+/*
+No solution
+input
+2
+1 2 3
+2 4 10
+output
+
+Rank(A) = 1, Rank(A|B) = 2
+No solution exists.
+
+L Matrix:
+ 1  0 
+ 2  1 
+
+U Matrix:
+ 1  2 
+ 0  0 
+
+
+*/

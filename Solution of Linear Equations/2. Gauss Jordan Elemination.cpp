@@ -11,11 +11,11 @@ void printMat(const vector<vector<double>>&mat){
 
 int main(){
     int n;
-    cout<<"Enter number of variables: ";
+    //cout<<"Enter number of variables: ";
     cin>>n;
 
     vector<vector<double>>A(n,vector<double>(n+1));
-    cout<<"Enter augmented matrix row wise:\n";
+    //cout<<"Enter augmented matrix row wise:\n";
     for(int i=0;i<n;i++)
         for(int j=0;j<=n;j++)
             cin>>A[i][j];
@@ -66,3 +66,41 @@ int main(){
 
     return 0;
 }
+/*
+infinite solution
+input 
+2
+1 2 3
+2 4 6  
+output
+Infinite solutions exist
+
+
+*/
+
+/*
+root found
+input
+2
+2 3 8
+4 1 10
+output
+
+1 0 2.2 
+-0 1 1.2 
+The solution is:
+x1 = 2.2
+x2 = 1.2
+
+
+*/
+/*
+No solution
+input
+2
+1 2 3
+2 4 10
+output
+No solution exists
+
+*/

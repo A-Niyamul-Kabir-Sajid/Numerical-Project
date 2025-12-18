@@ -153,3 +153,34 @@ int main(){
 
     return 0;
 }
+/*
+infinite solution or no solution
+input 
+2
+1 2 3
+2 4 6
+output
+Many solutions exists
+
+L Matrix:
+ 1  0 
+ 2  1 
+
+U Matrix:
+ 1  2 
+ 0  0 
+
+*/
+
+/*
+root found
+input
+2
+2 1 8
+1 3 10
+output
+
+2
+2 1 8
+1 3 10
+*/

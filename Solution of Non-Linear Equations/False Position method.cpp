@@ -23,12 +23,12 @@ double evaluate(const vector<double>& cof, double x) {
 
 int main() {
     int n;
-    cout << "Enter the degree of the polynomial: ";
+    //cout << "Enter the degree of the polynomial: ";
     if (!(cin >> n)) return 0;
 
     // Polynomial coefficients from highest power to constant
     vector<double> cof(n + 1);
-    cout << "Enter the " << n + 1 << " coefficients: ";
+   // cout << "Enter the " << n + 1 << " coefficients: ";
     for (int i = 0; i <= n; i++) cin >> cof[i];
 
     vector<double> found_roots;
@@ -90,9 +90,11 @@ int main() {
 
         cout << "\nUnique real roots found:" << endl;
         for (double r : found_roots) {
+            int i=1;
             // Clean up visual noise like -0.000000
             if (abs(r) < 1e-10) r = 0.0;
-            cout << "x = " << fixed << setprecision(6) << r << endl;
+            cout << "x"<<i<<" = " << fixed << setprecision(6) << r << endl;
+            i++;
         }
     }
 
@@ -116,6 +118,6 @@ input:
 1 -3 2
 output:
 Unique real roots found:
-x = 1.000000
-x = 2.000000
+x1 = 1.000000
+x2 = 2.000000
 */

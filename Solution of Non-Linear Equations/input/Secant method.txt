@@ -1,2 +1,0 @@
-# Input for Secant method.cpp
-# Add your test data here
