@@ -1,2 +1,0 @@
-# Input for 4. Matrix Inversion (using adj matrix).cpp
-# Add your test data here

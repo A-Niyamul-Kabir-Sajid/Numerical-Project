@@ -1,2 +1,0 @@
-# Input for 3. LU decomposition.cpp
-# Add your test data here

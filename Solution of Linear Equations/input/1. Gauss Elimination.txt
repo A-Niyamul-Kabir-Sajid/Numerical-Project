@@ -1,2 +1,0 @@
-# Input for 1. Gauss Elimination.cpp
-# Add your test data here
