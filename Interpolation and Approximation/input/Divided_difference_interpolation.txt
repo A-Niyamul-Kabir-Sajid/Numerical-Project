@@ -1,2 +1,9 @@
-# Input for Divided_difference_interpolation.cpp
-# Add your test data here
+# Test case:
+3
+1 1
+2 4
+4 16
+3
+# Expected:
+Interpolated value at x = 3 is y = 9
+Estimated interpolation error: 2

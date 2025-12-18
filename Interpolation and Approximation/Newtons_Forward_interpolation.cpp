@@ -46,14 +46,14 @@ double newtonForward(const vector<double>& x, const vector<double>& y, double va
 
 int main() {
     int n;
-    cout << "Enter number of equally spaced data points: ";
+    //cout << "Enter number of equally spaced data points: ";
     cin >> n;
     vector<double> x(n), y(n);
-    cout << "Enter data points (x y):\n";
+    //cout << "Enter data points (x y):\n";
     for(int i=0; i<n; i++) cin >> x[i] >> y[i];
 
     double valX;
-    cout << "Enter value to interpolate: ";
+    //cout << "Enter value to interpolate: ";
     cin >> valX;
 
     double error;
@@ -63,3 +63,15 @@ int main() {
 
     return 0;
 }
+/*
+Input:
+4
+1 1
+2 4
+3 9
+4 16
+2.5
+Output:
+Interpolated value at x = 2.5 is y = 6.25
+Estimated interpolation error: 0
+*/

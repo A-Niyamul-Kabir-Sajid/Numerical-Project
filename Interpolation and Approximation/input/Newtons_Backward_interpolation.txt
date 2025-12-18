@@ -1,2 +1,10 @@
-# Input for Newtons_Backward_interpolation.cpp
-# Add your test data here
+# Test case:
+4
+1 1
+2 4
+3 9
+4 16
+2.5
+# Expected:
+Interpolated value at x = 2.5 is y = 6.25
+Estimated interpolation error: 0
