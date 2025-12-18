@@ -7,11 +7,11 @@ double f(double x){
 int main(){
     double a,b;
     int n;
-    cout<<"Enter lower limit a: ";
+    //cout<<"Enter lower limit a: ";
     cin>>a;
-    cout<<"Enter upper limit b: ";
+    //cout<<"Enter upper limit b: ";
     cin>>b;
-    cout<<"Enter number of intervals (must be even): ";
+    //cout<<"Enter number of intervals (must be even): ";
     cin>>n;
     double h=(b-a)/n;
     double sum=f(a)+f(b);
@@ -23,3 +23,9 @@ int main(){
     double result=(h/3)*sum;
     cout<<"\nSimpson 1/3 Result = "<<result<<endl;
 }
+/*
+Input:
+0 2 4
+Output:
+Simpson 1/3 Result = 2.66667
+*/

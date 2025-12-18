@@ -7,11 +7,11 @@ double f(double x){
 int main(){
     double a,b;
     int n;
-    cout<<"Enter lower limit a: ";
+    //cout<<"Enter lower limit a: ";
     cin>>a;
-    cout<<"Enter upper limit b: ";
+    //cout<<"Enter upper limit b: ";
     cin>>b;
-    cout<<"Enter number of intervals (must be multiple of 3): ";
+    //cout<<"Enter number of intervals (must be multiple of 3): ";
     cin>>n;
     double h=(b-a)/n;
     double sum=f(a)+f(b);
@@ -23,3 +23,10 @@ int main(){
     double result=(3*h/8)*sum;
     cout<<"\nSimpson 3/8 Result = "<<result<<endl;
 }
+/*
+Input:
+0 2 4
+Output:
+Simpson 3/8 Result = 2.29688
+
+*/
