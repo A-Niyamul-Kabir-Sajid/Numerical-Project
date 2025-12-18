@@ -18,11 +18,15 @@ float rungeKutta(float x0,float y0,float x,float h){
     return y;
 }
 int main(){
-    float x0=0,y=1,x=2,h=0.2;
+    float x0,y,x,h;
+    cin>>x0>>y>>x>>h;
     cout<<"The value of y at x is : "<<rungeKutta(x0,y,x,h);
     return 0;
 }
 
 /*
 input:
+0 1 2 0.2
+Output
+The value of y at x is : 1.01971
 */

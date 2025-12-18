@@ -153,6 +153,7 @@ int main(){
 
     return 0;
 }
+
 /*
 infinite solution or no solution
 input 
@@ -180,7 +181,14 @@ input
 1 3 10
 output
 
-2
-2 1 8
-1 3 10
+Single(unique) solution exists
+Matrix is invertible
+Determinant:5.00000
+Inverse Matrix:
+0.60000 -0.20000 
+-0.20000 0.40000 
+Solution:
+x1=2.80000
+x2=2.40000
+
 */

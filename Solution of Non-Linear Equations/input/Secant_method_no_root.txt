@@ -1,5 +1,6 @@
-# Test case: no root
-# System:range [-100,100] and f(x)=x^2+1
-# Expected: No real roots found
+# Test case: 
 2
 1 0 1
+# System:range [-100,100] and f(x)=x^2+1
+# Expected:No real roots found.
+

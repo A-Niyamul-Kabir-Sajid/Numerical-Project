@@ -1,7 +1,17 @@
-# Test case: Singular matrix (no unique solution)
-# Matrix: [[1, 2], [2, 4]] (determinant = 0)
-# RHS: [3, 6]
-# Expected: Many solutions exists
+# Test case: 
 2
 1 2 3
 2 4 6
+# Matrix: [[1, 2], [2, 4]] (determinant = 0)
+# RHS: [3, 6]
+# Expected:
+Many solutions exists
+
+L Matrix:
+ 1  0 
+ 2  1 
+
+U Matrix:
+ 1  2 
+ 0  0 
+

@@ -103,9 +103,8 @@ int main() {
         });
         roots.erase(it, roots.end());
 
-        cout << "Real roots found:" << endl;
+        cout << "Real roots found:" << endl;int i=1;
         for (double r : roots) {
-            int i=1;
             // Clean up near-zero results like -0.000000
             if (abs(r) < 1e-10) r = 0.0;
             cout << "x"<<i<<" = " << fixed << setprecision(6) << r << endl;

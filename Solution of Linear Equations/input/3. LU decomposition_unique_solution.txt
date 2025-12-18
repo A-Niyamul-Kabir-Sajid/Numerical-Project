@@ -1,6 +1,19 @@
-# Test case: Unique solution
-# System: 2x + 3y = 8, 4x + y = 10
-# Expected: x = 2.200000, y = 1.200000
+# Test case: 
 2
 2 3 8
 4 1 10
+# System: 2x + 3y = 8, 4x + y = 10
+# Expected:
+Unique solution exists.
+Solution Vector X:
+x1 = 2.200000
+x2 = 1.200000
+
+L Matrix:
+1.000000 0.000000 
+2.000000 1.000000 
+
+U Matrix:
+2.000000 3.000000 
+0.000000 -5.000000 
+

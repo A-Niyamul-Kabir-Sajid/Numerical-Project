@@ -96,9 +96,8 @@ int main() {
         });
         roots.erase(it, roots.end());
 
-        cout << "Roots found:\n";
+        cout << "Roots found:\n";int i=1;
         for(double r : roots) {
-            int i=1;
             // Fix sign of zero if result is -0.000000
             if(fabs(r) < 1e-10) r = 0.0;
             cout <<"x"<<i<<" = "<< fixed << setprecision(6) << r <<endl;
@@ -130,7 +129,8 @@ input:
 output:
 x^3-6x^2+11x-6
 Roots found:
-1.000000 2.000000 3.000000 
-
+x1 = 1.000000
+x2 = 2.000000
+x3 = 3.000000
 
 */

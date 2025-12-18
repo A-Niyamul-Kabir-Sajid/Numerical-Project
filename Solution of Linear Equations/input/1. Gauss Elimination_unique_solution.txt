@@ -1,6 +1,13 @@
-# Test case: Unique solution
-# System: 2x + 3y = 8, 4x + y = 10
-# Expected: x = 2.2, y = 1.2
+# Test case: 
 2
 2 3 8
 4 1 10
+# System: 2x + 3y = 8, 4x + y = 10
+# Expected:
+4 1 10 
+0 2.5 3 
+
+The solution is:
+x1=2.2
+x2=1.2
+

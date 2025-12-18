@@ -1,6 +1,11 @@
-# Test case: Infinite solutions
-# System: x + 2y = 3, 2x + 4y = 6 (second equation is 2x first)
-# Expected: Infinite solutions exist
+# Test case: 
 2
 1 2 3
 2 4 6
+# System: x + 2y = 3, 2x + 4y = 6 (second equation is 2x first)
+# Expected: 
+2 4 6 
+0 0 0 
+
+Infinite solutions exist
+
