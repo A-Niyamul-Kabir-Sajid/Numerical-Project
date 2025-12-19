@@ -999,27 +999,27 @@ Numerical Project/
 │   ├── Divided_difference_interpolation.cpp
 │   └── input/
 ├── Numerical Differentiation/
-│   ├── Differentiation based on equal-interval interpolation.cpp
-│   ├── Second order derivative.cpp
+│   ├── Differentiation_equal-interval_interpolation.cpp
+│   ├── Second_order_derivative.cpp
 │   └── input/
 ├── Numerical Integration/
-│   ├── 1. Simpson's One-third rule.cpp
-│   ├── 2. Simpson's three-eighths rule.cpp
+│   ├── 1_Simpsons_One-third_rule.cpp
+│   ├── 2_Simpsons_three-eighths_rule.cpp
 │   └── input/
 ├── Solution of Differential Equations/
-│   ├── 1. Runge Kutta.cpp
+│   ├── 1_Runge_Kutta.cpp
 │   └── input/
 ├── Solution of Linear Equations/
-│   ├── 1. Gauss Elimination.cpp
-│   ├── 2. Gauss Jordan Elimination.cpp
-│   ├── 3. LU decomposition.cpp
-│   ├── 4. Matrix Inversion (using adj matrix).cpp
+│   ├── 1_Gauss_Elimination.cpp
+│   ├── 2_Gauss_Jordan_Elemination.cpp
+│   ├── 3_LU_decomposition.cpp
+│   ├── 4_Matrix_Inversion.cpp
 │   └── input/
 ├── Solution of Non-Linear Equations/
-│   ├── Bi-section method.cpp
-│   ├── False Position method.cpp
-│   ├── Newton-Raphson method.cpp
-│   ├── Secant method.cpp
+│   ├── Bi-section_method.cpp
+│   ├── False_Position_method.cpp
+│   ├── Newton-Raphson_method.cpp
+│   ├── Secant_method.cpp
 │   └── input/
 └── README.md
 ```
