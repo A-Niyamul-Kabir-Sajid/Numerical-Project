@@ -1,5 +1,3 @@
-# Input for LeastSquare_Polynomial.cpp
-# Test case:
 5
 0 2
 1 2.7
@@ -8,11 +6,3 @@
 4 7.4
 2
 5
-
-# Expected: 
-Polynomial coefficients:
-Coefficient of x^0 = 2.068571
-Coefficient of x^1 = 0.252857
-Coefficient of x^2 = 0.264286
-
-Predicted value at x = 5.000000 is y = 9.940000

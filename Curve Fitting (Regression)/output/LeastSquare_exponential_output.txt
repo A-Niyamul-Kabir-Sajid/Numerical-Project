@@ -1,0 +1,2 @@
+Regression equation: P = 1.963168 * e^(0.323285 * t)
+Predicted value at t = 5.000000 is P = 9.884674

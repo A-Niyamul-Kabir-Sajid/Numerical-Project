@@ -1,0 +1,2 @@
+Interpolated value at x = 2.5 is y = 6.625
+Estimated interpolation error: 0.375

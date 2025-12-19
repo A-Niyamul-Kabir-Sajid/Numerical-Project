@@ -1,5 +1,6 @@
 // Polynomial Least Squares Regression with Gaussian Elimination
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <cmath>
 #include <iomanip>
@@ -7,6 +8,9 @@
 using namespace std;
 
 int main() {
+    freopen("input/LeastSquare_Polynomial.txt", "r", stdin);
+    freopen("output/LeastSquare_Polynomial_output.txt", "w", stdout);
+    
     int n;
     //cout << "Enter number of data points: ";
     cin >> n;
@@ -98,7 +102,7 @@ int main() {
     }
 
     cout << "\nPredicted value at x = " << TheNewX << " is y = " << fixed << setprecision(6) << TheNewY << endl;
-
+    
     return 0;
 }
 /*

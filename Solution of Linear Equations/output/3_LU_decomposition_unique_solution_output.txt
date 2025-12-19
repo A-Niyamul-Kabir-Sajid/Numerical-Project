@@ -1,0 +1,13 @@
+
+Unique solution exists.
+Solution Vector X:
+x1 = 2.200000
+x2 = 1.200000
+
+L Matrix:
+1.000000 0.000000 
+2.000000 1.000000 
+
+U Matrix:
+2.000000 3.000000 
+0.000000 -5.000000 

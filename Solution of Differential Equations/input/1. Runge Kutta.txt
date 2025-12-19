@@ -1,2 +1,0 @@
-# Test case: 0 1 2 0.2
-# Expected: The value of y at x is : 1.01971

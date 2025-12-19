@@ -45,6 +45,9 @@ double newtonForward(const vector<double>& x, const vector<double>& y, double va
 }
 
 int main() {
+    freopen("input/Newtons_Forward_interpolation.txt", "r", stdin);
+    freopen("output/Newtons_Forward_interpolation_output.txt", "w", stdout);
+    
     int n;
     //cout << "Enter number of equally spaced data points: ";
     cin >> n;
@@ -60,7 +63,7 @@ int main() {
     double valY = newtonForward(x, y, valX, error);
     cout << "Interpolated value at x = " << valX << " is y = " << valY << endl;
     cout << "Estimated interpolation error: " << error << endl;
-
+    
     return 0;
 }
 /*

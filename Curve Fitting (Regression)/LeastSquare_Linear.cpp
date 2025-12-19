@@ -1,5 +1,6 @@
 // Simple Linear Regression (y = a + b*x)
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <cmath>
 #include <iomanip>
@@ -36,8 +37,8 @@ pair<double,double> LinearRegression(const vector<double>& x, const vector<doubl
 }
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    freopen("input/LeastSquare_Linear.txt", "r", stdin);
+    freopen("output/LeastSquare_Linear_output.txt", "w", stdout);
 
     int n;
     //cout << "Enter number of data points: ";
@@ -60,7 +61,7 @@ int main() {
     }
 
     LinearRegression(x, y, predictX);
-
+    
     return 0;
 }
 /*

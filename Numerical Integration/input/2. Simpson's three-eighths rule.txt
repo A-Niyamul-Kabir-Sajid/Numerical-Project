@@ -1,2 +1,0 @@
-# Test case: 0 2 4
-# Expected: Simpson 3/8 Result = 2.29688

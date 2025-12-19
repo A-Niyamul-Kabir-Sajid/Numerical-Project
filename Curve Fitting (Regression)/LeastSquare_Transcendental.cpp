@@ -1,4 +1,5 @@
 #include<iostream>
+#include<fstream>
 #include<vector>
 #include<cmath>
 #include<iomanip>
@@ -37,8 +38,8 @@ pair<double,double> transcendental(const vector<double>& x,const vector<double>&
 
 
 int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    freopen("input/LeastSquare_Transcendental.txt", "r", stdin);
+    freopen("output/LeastSquare_Transcendental_output.txt", "w", stdout);
 
     int n;
     if(!(cin>>n)) return 0;
@@ -51,7 +52,6 @@ int main(){
 
     
     transcendental(x,y,predictX);
-   
 }
 /*
 Input:

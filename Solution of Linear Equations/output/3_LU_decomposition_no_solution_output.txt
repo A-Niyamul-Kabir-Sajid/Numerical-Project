@@ -1,0 +1,11 @@
+
+Rank(A) = 1, Rank(A|B) = 2
+No solution exists.
+
+L Matrix:
+ 1  0 
+ 2  1 
+
+U Matrix:
+ 1  2 
+ 0  0 

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <cmath>
 #include <iomanip>
@@ -51,8 +52,8 @@ pair<double, double> exponential(const vector<double>& x, const vector<double>& 
 }
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    freopen("input/LeastSquare_exponential.txt", "r", stdin);
+    freopen("output/LeastSquare_exponential_output.txt", "w", stdout);
 
     int n;
     //cout << "Enter number of data points: ";

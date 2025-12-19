@@ -1,0 +1,2 @@
+Regression equation: T = -1.294980 + 3.110722 * e^(t/4)
+Predicted value at t = 5.000000 is T = 9.562507

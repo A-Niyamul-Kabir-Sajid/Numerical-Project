@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78367fcb-4253-4ee3-9c5d-cb0ee2b31b98" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Linear.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Linear.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Modified_exponential.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Modified_exponential.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Polynomial.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Polynomial.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Transcendental.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_Transcendental.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_exponential.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Curve Fitting (Regression)/input/LeastSquare_exponential.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpolation and Approximation/input/Divided_difference_interpolation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolation and Approximation/input/Divided_difference_interpolation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpolation and Approximation/input/Newtons_Backward_interpolation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolation and Approximation/input/Newtons_Backward_interpolation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpolation and Approximation/input/Newtons_Forward_interpolation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolation and Approximation/input/Newtons_Forward_interpolation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numerical Differentiation/input/Differentiation based on equal-interval interpolation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Numerical Differentiation/input/Differentiation based on equal-interval interpolation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numerical Differentiation/input/Second order derivative.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Numerical Differentiation/input/Second order derivative.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numerical Integration/input/1. Simpson's One-third rule.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Numerical Integration/input/1. Simpson's One-third rule.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Numerical Integration/input/2. Simpson's three-eighths rule.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Numerical Integration/input/2. Simpson's three-eighths rule.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Differential Equations/input/1. Runge Kutta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Differential Equations/input/1. Runge Kutta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/1. Gauss Elimination.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/1. Gauss Elimination.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/1. Gauss Elimination_infinite_solutions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/1. Gauss Elimination_infinite_solutions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/1. Gauss Elimination_no_solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/1. Gauss Elimination_no_solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/1. Gauss Elimination_unique_solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/1. Gauss Elimination_unique_solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/2. Gauss Jordan Elemination_infinite_solutions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/2. Gauss Jordan Elemination_infinite_solutions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/2. Gauss Jordan Elemination_no_solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/2. Gauss Jordan Elemination_no_solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/2. Gauss Jordan Elemination_unique_solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/2. Gauss Jordan Elemination_unique_solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/3. LU decomposition_infinite_solutions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/3. LU decomposition_infinite_solutions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/3. LU decomposition_no_solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/3. LU decomposition_no_solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/3. LU decomposition_unique_solution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/3. LU decomposition_unique_solution.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/4. Matrix Inversion (using adj matrix)_invertible.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/4. Matrix Inversion (using adj matrix)_invertible.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Linear Equations/input/4. Matrix Inversion (using adj matrix)_singular.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Linear Equations/input/4. Matrix Inversion (using adj matrix)_singular.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Bi-section method_no_root.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Bi-section method_no_root.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Bi-section method_root_found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Bi-section method_root_found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/False Position method_no_root.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/False Position method_no_root.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/False Position method_root_found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/False Position method_root_found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Newton-Raphson method_no_root.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Newton-Raphson method_no_root.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Newton_Raphson method_root_found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Newton_Raphson method_root_found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Secant_method_no_root.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Secant_method_no_root.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Secant_method_root_found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Solution of Non-Linear Equations/input/Secant_method_root_found.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3744rfblMMXt6h3GnYKSRpyoUfi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Numerical-Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Numerical-Project" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78367fcb-4253-4ee3-9c5d-cb0ee2b31b98" name="Changes" comment="" />
+      <created>1766149214813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766149214813</updated>
+      <workItem from="1766149216805" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

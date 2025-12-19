@@ -1,8 +1,0 @@
-# Test case:
-2
-1 0 1
-# System:range [-100,100] and f(x)=x^2+1
-# Expected: 
-f(x) = x^2 + 1
-No real roots found in the range [-100, 100]. 
-

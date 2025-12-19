@@ -32,6 +32,9 @@ double dividedDifference(const vector<double>& x, const vector<double>& y, doubl
 }
 
 int main() {
+    freopen("input/Divided_difference_interpolation.txt", "r", stdin);
+    freopen("output/Divided_difference_interpolation_output.txt", "w", stdout);
+    
     int n;
     //cout << "Enter number of data points: ";
     cin >> n;
@@ -47,7 +50,7 @@ int main() {
     double valY = dividedDifference(x, y, valX, error);
     cout << "Interpolated value at x = " << valX << " is y = " << valY << endl;
     cout << "Estimated interpolation error: " << error << endl;
-
+    
     return 0;
 }
 /*

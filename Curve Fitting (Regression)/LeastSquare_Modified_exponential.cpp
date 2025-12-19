@@ -1,5 +1,6 @@
 // Modified Exponential Regression: T = a + b * e^(t/4)
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <cmath>
 #include <iomanip>
@@ -48,8 +49,8 @@ pair<double,double> modifiedExponentialRegression(const vector<double>& t, const
 }
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    freopen("input/LeastSquare_Modified_exponential.txt", "r", stdin);
+    freopen("output/LeastSquare_Modified_exponential_output.txt", "w", stdout);
 
     int n;
     //cout << "Enter number of data points: ";
@@ -66,7 +67,7 @@ int main() {
     if(!(cin >> predictT)) return 0;
 
     modifiedExponentialRegression(t, T, predictT);
-
+    
     return 0;
 }
 /*

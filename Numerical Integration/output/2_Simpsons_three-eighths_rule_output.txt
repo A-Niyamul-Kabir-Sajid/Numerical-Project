@@ -1,0 +1,2 @@
+
+Simpson 3/8 Result = 2.29688

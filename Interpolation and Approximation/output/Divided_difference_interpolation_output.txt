@@ -1,0 +1,2 @@
+Interpolated value at x = 3 is y = 7
+Estimated interpolation error: 0
