@@ -1,2 +1,6 @@
-# Input for Differentiation based on equal-interval interpolation.cpp
-# Add your test data here
+# Test case:
+2
+1 3 2
+1
+# System: f(x)=x^2+3x+2
+# Expected:f'(p)=5

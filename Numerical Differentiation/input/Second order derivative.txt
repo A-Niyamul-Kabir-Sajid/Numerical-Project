@@ -1,2 +1,6 @@
-# Input for Second order derivative.cpp
-# Add your test data here
+# Test case:
+3
+1 0 -1 1
+2
+# System: f(x)=x^3-x+1
+# Expected: f"(p) = 12
