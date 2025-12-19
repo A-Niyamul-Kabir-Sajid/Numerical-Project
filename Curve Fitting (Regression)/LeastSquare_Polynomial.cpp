@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Enter number of data points: ";
+    //cout << "Enter number of data points: ";
     cin >> n;
     if (n <= 1) {
         cout << "At least two data points are required.\n";
@@ -16,13 +16,13 @@ int main() {
     }
 
     vector<double> x(n), y(n);
-    cout << "Enter the data points (x y) one per line:\n";
+    //cout << "Enter the data points (x y) one per line:\n";
     for (int i = 0; i < n; i++) {
         cin >> x[i] >> y[i];
     }
 
     int m;
-    cout << "Enter degree of polynomial (m < n): ";
+    //cout << "Enter degree of polynomial (m < n): ";
     cin >> m;
     if (m >= n) {
         cout << "Polynomial degree must be less than number of data points.\n";
@@ -30,7 +30,7 @@ int main() {
     }
 
     double TheNewX;
-    cout << "Enter value of x to predict y: ";
+    //cout << "Enter value of x to predict y: ";
     cin >> TheNewX;
 
     // Construct normal equations A * coeffs = B
@@ -101,3 +101,22 @@ int main() {
 
     return 0;
 }
+/*
+Input:
+5
+0 2
+1 2.7
+2 3.7
+3 5.0
+4 7.4
+2
+5
+Output:
+
+Polynomial coefficients:
+Coefficient of x^0 = 2.068571
+Coefficient of x^1 = 0.252857
+Coefficient of x^2 = 0.264286
+
+Predicted value at x = 5.000000 is y = 9.940000
+*/

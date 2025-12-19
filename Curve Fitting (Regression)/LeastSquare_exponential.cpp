@@ -55,18 +55,30 @@ int main() {
     cin.tie(nullptr);
 
     int n;
-    cout << "Enter number of data points: ";
+    //cout << "Enter number of data points: ";
     if (!(cin >> n) || n < 2) return 0;
 
     vector<double> x(n), y(n);
-    cout << "Enter data points (t P) one per line:\n";
+    //cout << "Enter data points (t P) one per line:\n";
     for (int i = 0; i < n; i++) {
         cin >> x[i] >> y[i];
     }
 
     double predictX;
-    cout << "Enter the value of t to predict P: ";
+    //cout << "Enter the value of t to predict P: ";
     if (!(cin >> predictX)) return 0;
 
     exponential(x, y, predictX);
 }
+/*
+Input:
+5
+0 2
+1 2.7
+2 3.7
+3 5.0
+4 7.4
+5
+Output:
+Regression equation: P = 1.963168 * e^(0.323285 * t)
+Predicted value at t = 5.000000 is P = 9.884674*/

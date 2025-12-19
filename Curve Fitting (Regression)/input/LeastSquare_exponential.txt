@@ -1,2 +1,12 @@
-# Input for LeastSquare_exponential.cpp
-# Add your test data here
+# Test case:
+5
+0 2
+1 2.7
+2 3.7
+3 5.0
+4 7.4
+5
+
+# Expected: 
+Regression equation: P = 1.963168 * e^(0.323285 * t)
+Predicted value at t = 5.000000 is P = 9.884674

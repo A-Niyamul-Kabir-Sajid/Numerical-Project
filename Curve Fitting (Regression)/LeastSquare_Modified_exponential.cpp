@@ -52,20 +52,34 @@ int main() {
     cin.tie(nullptr);
 
     int n;
-    cout << "Enter number of data points: ";
+    //cout << "Enter number of data points: ";
     if(!(cin >> n) || n < 2) return 0;
 
     vector<double> t(n), T(n);
-    cout << "Enter data points (t T) one per line:\n";
+    //cout << "Enter data points (t T) one per line:\n";
     for(int i = 0; i < n; i++) {
         cin >> t[i] >> T[i];
     }
 
     double predictT;
-    cout << "Enter the value of t to predict T: ";
+    //cout << "Enter the value of t to predict T: ";
     if(!(cin >> predictT)) return 0;
 
     modifiedExponentialRegression(t, T, predictT);
 
     return 0;
 }
+/*
+Input:
+5
+0 2
+1 2.7
+2 3.7
+3 5.0
+4 7.4
+5
+
+Output:
+Regression equation: T = -1.294980 + 3.110722 * e^(t/4)
+Predicted value at t = 5.000000 is T = 9.562507
+*/
