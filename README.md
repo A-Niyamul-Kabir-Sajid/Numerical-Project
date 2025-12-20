@@ -1039,7 +1039,7 @@ x2 = 2.000000
 
 ---
 
-###Newton-Raphson Method
+### Newton-Raphson Method
 
 #### Theory
 The Newton-Raphson method is an open method (doesn't require bracketing) that uses calculus to find roots rapidly.
